@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    font-family: loveloline_light;
+}
+
+p {
+    color: rgb(204, 204, 0)
+}
+
+#aslan {
+    width: 700px;
+    float: left;
+}
+
+header > p {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: fantasy;
+}
