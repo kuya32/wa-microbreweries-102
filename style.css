@@ -1,15 +1,23 @@
 body {
     background-color: black;
     font-family: loveloline_light;
-}
-
-p {
     color: rgb(204, 204, 0)
 }
 
+.about {
+    position: absolute;   
+    left: 600px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 100px;
+}
+
 #aslan {
-    width: 700px;
+    width: 500px;
     float: left;
+    margin: 25px;
 }
 
 header > p {
@@ -20,4 +28,8 @@ h1 {
     color: white;
     text-align: center;
     font-family: fantasy;
+}
+
+h2 {
+    text-align: center;
 }
