@@ -4,24 +4,13 @@ body {
     color: rgb(204, 204, 0)
 }
 
-.about {
-    position: absolute;   
-    left: 600px;
-}
-
-.bottom {
-    position: absolute;
-    bottom: 100px;
-}
-
-#aslan {
-    width: 500px;
-    float: left;
-    margin: 25px;
-}
 
 header > p {
     text-align: center;
+}
+
+section {
+    border: 1px solid white;
 }
 
 h1 {
@@ -32,4 +21,20 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+#aslan {
+    text-align: center;
+}
+
+#about {
+    
+}
+
+#beer {
+    
+}
+
+#map {
+    
 }
