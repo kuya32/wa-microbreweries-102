@@ -14,45 +14,29 @@ function getAgeQuestion () {
     return ageQuestion();
 }
 
-
-
-
-
-
-var age = prompt('Sorry we gotta ask again. How old are you?')
-var greeting;
-
-if (age > 20) {
-    greeting = 'Congratulations, your old timer!';
-    alert(greeting);
-} else {
-    greeting = 'Sorry, you\re still a baby!';
-    alert(greeting);
-}
-
-/*   
-function checkLight(lightSideQuestion){
-    if(lightSideQuestion === 'yes'){
-        alert('I am sorry.  Dark Lords do not take kindly to Jedi!')
+function checkAge (getAgeQuestion) {
+    if(getAgeQuestion >= 21) {
+        alert("Congratulations, old timer!")
     } else {
-        alert('GOOD GOOD. I can feel the dark side flowing through you!');
+        alert("Sorry, you are still a baby!");
     }
 }
 
-function adopt(lightSideQuestion){
-    if(lightSideQuestion === 'no'){
-        var adopt = prompt('Are you ready to adopt a Sith Lord?');
+function beerCheck (getAgeQuestion) {
+    if (getAgeQuestion >= 21) {
+        var beerCheck = prompt ("Yes or No? Do you like beer?")
 
-        if(adopt === 'yes'){
-            alert('Great. An adoption specialist will be assigned shortly');
-        } else if(adopt === 'no'){
-            alert('That is ok.  You may need to build up your tolerance for dark side energies.  Come back when you are ready.');
-        } else {
-            alert('Are you mental?  a simple "yes" or "no" is not that hard');
+        if (beerCheck === "Yes") {
+            alert("Let me show you my wares!");
+        } else if (beerCheck === "No") {
+            alert ("No worries, I bet we can find you a beer you like. If all else fails we have wine and cider.")
+        }else {
+            alert("Are you mental? It's a simple "Yes" or "No" is not that hard.");
         }
     }
 }
 
-var lightSideQuestion = lightSide();
-checkLight(lightSideQuestion);
-adopt(lightSideQuestion); */
+getAgeQuestion();
+checkAge(getAgeQuestion);
+beerCheck(getAgeQuestion);
+
